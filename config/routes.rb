@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # get 'messages/reply'
+  # POST endpoint --> 'messages/reply'
   resource :messages do
   	collection do
   		post 'reply'
