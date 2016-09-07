@@ -579,3 +579,30 @@ Processing by MessagesController#reply as */*
 Completed 200 OK in 1929ms (Views: 50.5ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/messages/reply" for 52.91.68.138 at 2016-09-06 20:26:43 -0700
+Cannot render console from 52.91.68.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM79422d203154f2a3834badcc0e6d8e82", "NumMedia"=>"0", "ToCity"=>"INVERNESS", "FromZip"=>"94107", "SmsSid"=>"SM79422d203154f2a3834badcc0e6d8e82", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SAN FRANCISCO", "Body"=>"Fun times", "FromCountry"=>"US", "To"=>"+14152379460", "ToZip"=>"94937", "NumSegments"=>"1", "MessageSid"=>"SM79422d203154f2a3834badcc0e6d8e82", "AccountSid"=>"ACee718cb04dcc0b9b116fa45535b10952", "From"=>"+14155038525", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1817ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.87.167.28 at 2016-09-06 20:29:42 -0700
+Cannot render console from 54.87.167.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM45806e8e29f4da1a2b4888a843cb4509", "NumMedia"=>"0", "ToCity"=>"INVERNESS", "FromZip"=>"94107", "SmsSid"=>"SM45806e8e29f4da1a2b4888a843cb4509", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SAN FRANCISCO", "Body"=>"What's up?", "FromCountry"=>"US", "To"=>"+14152379460", "ToZip"=>"94937", "NumSegments"=>"1", "MessageSid"=>"SM45806e8e29f4da1a2b4888a843cb4509", "AccountSid"=>"ACee718cb04dcc0b9b116fa45535b10952", "From"=>"+14155038525", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 2111ms (Views: 446.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.165.53.88 at 2016-09-06 20:42:16 -0700
+Cannot render console from 54.165.53.88! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMce9deb0dba220ff1c155d20b423781ca", "NumMedia"=>"0", "ToCity"=>"INVERNESS", "FromZip"=>"94107", "SmsSid"=>"SMce9deb0dba220ff1c155d20b423781ca", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SAN FRANCISCO", "Body"=>"Last one", "FromCountry"=>"US", "To"=>"+14152379460", "ToZip"=>"94937", "NumSegments"=>"1", "MessageSid"=>"SMce9deb0dba220ff1c155d20b423781ca", "AccountSid"=>"ACee718cb04dcc0b9b116fa45535b10952", "From"=>"+14155038525", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2087ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
