@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'messages/reply'
+  # root 'messages#reply'
+  # get 'messages/reply'
   resource :messages do
   	collection do
   		post 'reply'
