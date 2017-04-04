@@ -2,7 +2,7 @@
 
 Send a text message to +1 (415) 237-9460. Receive an automated reply.
 
-###Getting Started
+##Getting Started
 
     bundle install --without production
 
